@@ -22,14 +22,14 @@ body{
     justify-content: center;
     color: white; 
     margin: 22px;
-    font-size: 36px;
+    font-size: 6em;
     font-weight: 700;
 }
 
 
 img{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 70vh;
+    max-height: 70vh;
 }
 imgContainer{
     display: flex;
@@ -45,7 +45,7 @@ imgContainer{
 }
 
 input,button{
-    border: 2px solid rgb(230, 187, 47) ; padding: 10px; font-size: 16px;
+    border: 2px solid rgb(230, 187, 47) ; padding: 10px; font-size: 3em;
     border-radius: 12px;
     background-color: bisque;
 }
