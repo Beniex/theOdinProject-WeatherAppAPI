@@ -11,6 +11,7 @@ const imgElement = document.querySelector('img');
 async function loadJson(location, APIKey){
     try{
         let url = 'https://api.weatherapi.com/v1/current.json?key='+ APIKey + '&q='+ location + '&aqi=yes'; 
+        console.log('Fetching URL:', url); 
         let response = await fetch(url); 
         if (!response.ok) {
             alert("cette localité n'existe pas"); 
