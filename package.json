@@ -1,8 +1,8 @@
 {
-  "name": "theodinprojecttemplate",
+  "name": "theodinprojectweatherappapi",
   "version": "1.0.0",
   "description": "this repo is a template of a working html css js project with a server",
-  "homepage": "https://beniex.github.io/theOdinProject-Template",
+  "homepage": "https://beniex.github.io/theOdinProject-WeatherAppAPI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

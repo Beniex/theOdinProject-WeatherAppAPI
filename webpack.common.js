@@ -7,7 +7,7 @@ module.exports = {
 },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'theOdinProject-Template',
+      title: 'theOdinProject-WeatherAppAPI',
       template: './src/index.html',
       favicon: './src/favicon.ico',
     }),
@@ -24,6 +24,6 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    publicPath: '/theOdinProject-Template/',
+    publicPath: '/theOdinProject-WeatherAppAPI/',
   },
 };
